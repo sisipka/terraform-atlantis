@@ -17,10 +17,6 @@ jobs:
         cli_config_credentials_hostname: app.terraform.io
         cli_config_credentials_token: ${{ secrets.tf_token }}
         terraform_version: 0.12.0
-      
-    - name: Terraform fmt
-      id: fmt
-      run: terraform fmt -recursive
 
     - name: Terraform Init
       id: init
