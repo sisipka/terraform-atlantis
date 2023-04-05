@@ -23,10 +23,10 @@ variable "bucket_name" {
 
 # Задаем s3_access_key
 variable "s3_access_key" {
-  default = "YCAJEejVa1KaHadoWcrKrxQ5x"
+  default = "YCAJEfeAtoBZB4RNbNDDwmWTn"
 }
 
 # Задаем s3_secret_key
 variable "s3_secret_key" {
-  default = "YCMN_ZAZTMs1cqnN1vNjFrBI8vfWwpCbr_wCg5x6"
+  default = "YCNgmfJWdgWc5iy_vVvkMGOmPnIZuvf2rVlFf-S7"
 }

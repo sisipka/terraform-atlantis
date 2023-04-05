@@ -1,6 +1,6 @@
 github:
  user: sisipka
- token: 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
+ token: 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
  secret: ulokchmxxlhmwbelbuawkjrtrpljnqjkozilbbuvnkmmkiimkhelimgvraqtqrvdzjhmckbpxenplyqfccqskhgldntohcsnncgsdjvflwlszhfbyjsascvaepaajzgh
 # Replace this with your own repo whitelist:
 orgWhitelist: "github.com/sisipka/*" # Don't forget the "*" to whitelist all the repository of your group
@@ -13,8 +13,9 @@ service:
 aws:
   credentials: |
     [default]
-    aws_access_key_id=YCAJEejVa1KaHadoWcrKrxQ5x
-    aws_secret_access_key=YCMN_ZAZTMs1cqnN1vNjFrBI8vfWwpCbr_wCg5x6
+    aws_access_key_id = "YCAJEKqdHc93RUQZDTHTtCPq7"
+    aws_secret_access_key = "YCNWVwQ9iZOa96a7TSCM1ZxhSy0MRgL2hVrUcXqW"
+    region = "ru-central1"
 
 repoConfig: |
  ---
@@ -63,6 +64,6 @@ resources:
     cpu: 100m
 
 # Disk space for Atlantis to check out repositories
-dataStorage: 0.5Gi
+dataStorage: 1Gi
 
 replicaCount: 1
