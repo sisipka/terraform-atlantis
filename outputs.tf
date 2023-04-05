@@ -12,7 +12,6 @@ output "cluster_ca_certificate" {
   value = yandex_kubernetes_cluster.kuber-shestihin.master[0].cluster_ca_certificate
 }
 
-
 output "cluster_id" {
   description = "ID of a new Kubernetes cluster."
 
