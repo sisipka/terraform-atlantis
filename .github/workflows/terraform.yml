@@ -1,9 +1,9 @@
 name: Terraform Plan
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
     
 jobs:
 
@@ -17,10 +17,6 @@ jobs:
         cli_config_credentials_hostname: app.terraform.io
         cli_config_credentials_token: ${{ secrets.tf_token }}
         terraform_version: 1.4.2
-        
-    - name: Terraform fmt
-      id: fmt
-      run: terraform fmt -recursive
 
     - name: Terraform Init
       id: init
